@@ -100,7 +100,7 @@
     <!-- MATERIAL BOX -->
     <!-- (opt) data-caption -->
     <h1>MATERIAL BOX</h1>
-    <img class="materialboxed" width="650" src="./img/desk.jpg" data-caption="Here is an image caption">
+    <img class="materialboxed" width="400" src="./img/desk.jpg" data-caption="Here is an image caption">
     <!-- SLIDER -->
     <h1>SLIDER</h1>
     <div class="slider">
@@ -213,10 +213,30 @@
       <div id="test4" class="col s12 yellow">Test 4</div>
     </div>
 
+    <!-- FEATUREDISCOVERY - TAP TARGET -->
+    <h1>TAP TARGET</h1>
+    <!-- (Opt) Buttons -->
+    <a class="waves-effect waves-light btn" onClick="$('.tap-target').tapTarget('open')">Open/Close Tap Target</a>
+    <br><br>
+    <!-- (Opt) Button to only close the tap -->
+    <a class="waves-effect waves-light btn" onClick="$('.tap-target').tapTarget('close')">Close Tap Target</a>
+    <br><br>
+
+    <!-- Element Showed -->
+    <div class="fixed-action-btn">
+      <a id="menu" class="waves-effect waves-light btn btn-floating" ><i class="material-icons" onClick="$('.tap-target').tapTarget('open')">menu</i></a>
+    </div>
+    <!-- Tap Target Structure -->
+    <div class="tap-target cyan" data-activates="menu">
+      <div class="tap-target-content white-text">
+        <h5>Title</h5>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique voluptate laudantium quae officia nisi vel quas quasi placeat sequi? Vero doloribus aliquam, distinctio voluptas ipsum dolorum laborum? Reiciendis, eum fugiat?</p>
+      </div>
+    </div>
+
   </div> <!-- ./container -->
- 
-  <div style="height: 500px"></div>
   
+
   <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
 
