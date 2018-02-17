@@ -96,6 +96,46 @@
       <li><a href="#!"><i class="material-icons">cloud</i>five</a></li>
     </ul>
 
+    <!-- MEDIA -->
+    <!-- MATERIAL BOX -->
+    <!-- (opt) data-caption -->
+    <h1>MATERIAL BOX</h1>
+    <img class="materialboxed" width="650" src="./img/desk.jpg" data-caption="Here is an image caption">
+    <!-- SLIDER -->
+    <h1>SLIDER</h1>
+    <div class="slider">
+      <ul class="slides">
+        <li>
+          <img src="./img/desk.jpg"> 
+          <div class="caption center-align">
+            <h3>This is our big Tagline!</h3>
+            <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+          </div>
+        </li>
+        <li>
+          <img src="./img/contemplation.jpg"> 
+          <div class="caption left-align">
+            <h3>Left Aligned Caption</h3>
+            <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+          </div>
+        </li>
+        <li>
+          <img src="./img/touch.jpg"> 
+          <div class="caption right-align">
+            <h3>Right Aligned Caption</h3>
+            <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+          </div>
+        </li>
+        <li>
+          <img src="./img/camera.jpg">
+          <div class="caption center-align">
+            <h3>This is our big Tagline!</h3>
+            <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+          </div>
+        </li>
+      </ul>
+    </div>
+
   </div> <!-- ./container -->
  
   <div style="height: 500px"></div>
@@ -111,6 +151,8 @@
       $('.carousel.carousel-slider').carousel({fullWidth:true});
       // (Opt) Fire Off toast when reload
       Materialize.toast('Welcome to Materialize!', 3000, 'rounded');
+      // Init Slider
+      $('.slider').slider();
     });
   </script>
 </body>
