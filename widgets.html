@@ -136,6 +136,46 @@
       </ul>
     </div>
 
+    <!-- MODAL -->
+    <h1>MODAL</h1>
+    <!-- Modal Trigger -->
+    <a class="btn waves-effect waves-light modal-trigger" href="#modal1">Modal 1</a>
+    <a class="waves-effect waves-light btn red modal-trigger" href="#modal2">Modal Fixed Footer</a>
+    <a class="waves-effect waves-light btn green modal-trigger" href="#modal3">Modal Bottom Sheet</a>
+    <!-- Modal 1 Structure -->
+    <div id="modal1" class="modal">
+      <div class="modal-content">
+        <h4>Modal1 Header</h4>
+        <p>A bunch of text</p>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+      </div>
+    </div>
+    <!-- Modal 2 Structure | Fixed Footer -->
+    <div id="modal2" class="modal modal-fixed-footer">
+      <div class="modal-content">
+        <h4>Modal2 Header</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident vitae temporibus ipsa consequatur tenetur deleniti blanditiis nam perspiciatis molestias velit animi, quae necessitatibus voluptatem id reiciendis corrupti enim labore! Dolorum?</p>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class="modal-action modal-close waves-effect waves-red btn-flat">Disagree</a>
+        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+      </div>
+    </div>
+    <!-- Modal 3 Structure | Bottom Sheet-->
+    <div id="modal3" class="modal bottom-sheet">
+      <div class="modal-content">
+        <h4>Modal3 Header</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident vitae temporibus ipsa consequatur tenetur deleniti blanditiis nam perspiciatis molestias velit animi, quae necessitatibus voluptatem id reiciendis corrupti enim labore! Dolorum?</p>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class="modal-action modal-close waves-effect waves-red btn-flat">Disagree</a>
+        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+      </div>
+    </div>
+    
+
   </div> <!-- ./container -->
  
   <div style="height: 500px"></div>
@@ -153,6 +193,8 @@
       Materialize.toast('Welcome to Materialize!', 3000, 'rounded');
       // Init Slider
       $('.slider').slider();
+      // Init Modal
+      $('.modal').modal();
     });
   </script>
 </body>
