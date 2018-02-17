@@ -14,7 +14,7 @@
   </div>
   <div class="container">
      <!-- CAROUSEL -->
-    <h1>CARROUSEL</h1>
+    <h1>CAROUSEL</h1>
     <div class="carousel">
       <a class="carousel-item" href="#one!">
         <img src="./img/contemplation.jpg" height="250" width="250">
@@ -33,7 +33,7 @@
       </a>
     </div>
     <!-- CAROUSEL FULL SLIDER-->
-    <h1>CARROUSEL FULL SLIDER</h1>
+    <h1>CAROUSEL FULL SLIDER</h1>
     <div class="carousel carousel-slider">
       <a class="carousel-item" href="#one!">
           <img src="./img/contemplation.jpg" height="400">
@@ -70,6 +70,18 @@
       </li>
     </ul>
 
+    <!-- DIALOGS -->
+    <!-- TOASTS -->
+    <h1>TOASTS</h1>
+    <!-- rounded: ('Post Saved', 4000, 'rounded')-->
+    <a class="btn" onclick="Materialize.toast('Post Saved', 4000)">Post!</a>
+    <!-- TOOLTIPS -->
+    <h1>TOOLTIPS</h1>
+    <a class="btn tooltipped" data-position="bottom" data-delay="50" data-tooltip="I am a tooltip">Hover me!</a>
+    <a class="btn tooltipped" data-position="left" data-delay="50" data-tooltip="I am a tooltip">Hover me!</a>
+    <a class="btn tooltipped" data-position="right" data-delay="50" data-tooltip="I am a tooltip">Hover me!</a>
+    <a class="btn tooltipped" data-position="top" data-delay="500" data-tooltip="I am a tooltip">Hover me!</a>
+
 
   </div> <!-- ./container -->
  
@@ -80,10 +92,12 @@
 
   <script>
     $(document).ready(function(){
-      // Initi Carousel
+      // Init Carousel
       $('.carousel').carousel();
-      // Init Carousel SLider
+      // Init Carousel Slider
       $('.carousel.carousel-slider').carousel({fullWidth:true});
+      // (Opt) Fire Off toast when reload
+      Materialize.toast('Welcome to Materialize!', 3000, 'rounded');
     });
   </script>
 </body>
