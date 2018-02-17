@@ -10,11 +10,13 @@
 </head>
 <body>
   <div class="container">
+    <!-- COLORS -->
     <h1>COLORS</h1>
     <div class="red white-text">Div with color class</div>
     <div class="blue white-text darken-2">Div with color class - Darkness</div>
     <div class="deep-purple blue-text lighten-3">Div with color class - Lightness</div>
 
+    <!-- BUTTONS -->
     <h1>BUTTONS</h1>
     <button class="btn">Standard</button>
     <button class="btn red">Other Color</button>
@@ -25,10 +27,8 @@
     <button class="btn waves-effect waves-light">Waves Light</button>
     <button class="btn btn-large">Larger</button>
     <button class="btn disabled">Disabled</button>
-
     <!-- FLOATING BUTTON -->
     <a href="#" class="btn-floating red btn-large"><i class="large material-icons">add</i></a>
-
     <!-- FIXED ACTION BUTTON -->
     <div class="fixed-action-btn">
         <a href="#" class="btn-floating red btn-large"><i class="large material-icons">mode_edit</i></a>
@@ -39,10 +39,10 @@
           <li><a href="#" class="btn-floating orange btn-large"><i class="large material-icons">attach_file</i></a></li>
         </ul>
     </div>
-
     <!-- FLAT BUTTON -->
     <a href="#" class="waves-effect waves-teal btn-flat">Button</a>
 
+    <!-- HELPERS -->
     <h1>HELPERS</h1>
     <!-- ALIGNMENT -->
     <div>
@@ -50,13 +50,11 @@
       <h5 class="right-align">This aligns to the right</h5>
       <h5 class="center-align">This aligns to the center</h5>
     </div>
-
     <!-- QUICK FLOATS -->
     <div class="left">Left Float</div>
     <div class="right">Right Float</div>
     <!-- CLEAR -->
     <div class="clearfix"></div>
-
     <!-- HIDE CONTENT -->
     <div class="hide">Hidden for all devices</div>
     <div class="hide-on-small-only">Hidden for Mobile Only</div>
@@ -64,10 +62,8 @@
     <div class="hide-on-med-and-down">Hidden for Tablet and Below</div> 
     <div class="hide-on-med-and-up">Hidden for Tablet and Above</div>
     <div class="hide-on-large-only">Hidden for Desktop Only</div>
-    
     <!-- TRUNCATE -->
     <h4 class="truncate">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti quibusdam inventore neque nemo provident molestiae aperiam assumenda quis facere tempora eaque corporis labore esse, modi qui debitis laborum officia! Unde.</h4>
-
     <!-- EFFECTS -->
     <!-- HOVERABLE -->
     <div class="red hoverable">Hoverable Content</div>
@@ -79,7 +75,6 @@
     <div class="z-depth-3">z-depth-3</div>  
     <div class="z-depth-4">z-depth-4</div>  
     <div class="z-depth-5">z-depth-5</div>  
-    
     <!-- FLOW/RESPONSIVE TEXT -->
     <p class="flow-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore delectus debitis dolorem necessitatibus sint, perferendis officiis blanditiis possimus molestias, natus neque facilis unde similique a. Natus pariatur architecto incidunt cupiditate.</p>
 
@@ -87,169 +82,194 @@
     <img class="responsive-img" src="http://www.freeimageslive.com/galleries/sports/relaxation/pics/contemplation.jpg">
 
     <img class="responsive-img circle" src="http://www.freeimageslive.com/galleries/sports/relaxation/pics/contemplation.jpg">
+  </div> <!-- ./container -->
 
-    <!-- NAVIGATION -->
-    <!-- LEFT LOGO -->
-    <nav>
-      <div class="nav-wrapper blue">
-        <a href="#" class="brand-logo">Logo</a>
-        <ul id="nav-mobile" class="right hide-on-med-and-down">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </div>
-    </nav>
-    <br>
-    <!-- RIGHT LOGO -->
-    <nav>
-      <div class="nav-wrapper red">
-        <a href="#" class="brand-logo right">Logo</a>
-        <ul id="nav-mobile" class="left hide-on-med-and-down">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </div>
-    </nav>
-    <br>
-    <!-- CENTER LOGO -->
-    <nav>
-      <div class="nav-wrapper green">
-        <a href="#" class="brand-logo center">Logo</a>
-        <ul id="nav-mobile" class="left hide-on-med-and-down">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </div>
-    </nav>
-    <br>
-    <!-- DROPDOWN -->
-    <ul id="dropdown1" class="dropdown-content">
-      <li><a href="#!">one</a></li>
-      <li><a href="#!">two</a></li>
-      <li class="divider"></li>
-      <li><a href="#!">three</a></li>
-    </ul>
-    <nav>
-      <div class="nav-wrapper brown">
-        <a href="#" class="brand-logo center">Logo</a>
-        <ul id="nav-mobile" class="left hide-on-med-and-down">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
-          <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Dropdown<i class="material-icons right">arrow_drop_down</i></a></li>
-        </ul>
-      </div>
-    </nav>
-    <br>
-    <!-- ICONS & BUTTONS IN NAVBAR -->
-    <nav>
-      <div class="nav-wrapper black">
-        <a href="#!" class="brand-logo"><i class="material-icons">cloud</i>Logo</a>
-        <ul class="right hide-on-med-and-down">
-          <li><a href="#!"><i class="material-icons">search</i></a></li>
-          <li><a href="#!"><i class="material-icons">refresh</i></a></li>
-          <li><a href="#!"><i class="material-icons">more_vert</i></a></li>
-          <li><a href="#!" class="btn waves-effect waves-light">Button</a></li>
-        </ul>
-      </div>
-    </nav>
-    <br>
-    <!-- SEARCHBAR -->
-    <nav>
-      <div class="nav-wrapper yellow">
-        <form>
-          <div class="input-field">
-            <input id="search" type="search" required>
-            <label class="label-icon" for="search"><i class="material-icons">search</i></label>
-            <i class="material-icons">close</i>
-          </div>
-        </form>
-      </div>
-    </nav>
-    <br>
-    <!-- MOBILE COLLAPSE -->
-    <nav>
-      <div class="nav-wrapper">
-        <a href="#!" class="brand-logo">Logo</a>
-        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-        <ul class="right hide-on-med-and-down">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-        <ul class="side-nav" id="mobile-demo">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-      </div>
-    </nav>
-
-    <div class="container">
-      <h1>COLLECTION/LIST</h1>
-      <!-- COLLECTION/LIST -->
-      <ul class="collection">
-        <li class="collection-item">Item 1</li>
-        <li class="collection-item">Item 2</li>
-        <li class="collection-item">Item 3</li>
-        <li class="collection-item">Item 4</li> 
-      </ul>
-      <!-- LINKS COLLECTION -->
-      <div class="collection">
-        <a href="#!" class="collection-item">Link 1</a>
-        <a href="#!" class="collection-item">Link 2</a>
-        <a href="#!" class="collection-item">Link 3</a>
-        <a href="#!" class="collection-item">Link 4</a>
-      </div>
-      <!-- WITH HEADER -->
-      <ul class="collection">
-        <li class="collection-item"><h4>Header</h4></li>
-        <li class="collection-item">Item 1</li>
-        <li class="collection-item">Item 2</li>
-        <li class="collection-item">Item 3</li> 
-      </ul>
-      <!-- ICON/AVATAR COLLECTION -->
-      <ul class="collection">
-        <li class="collection-item avatar">
-          <img src="http://www.freeimageslive.com/galleries/sports/relaxation/pics/contemplation.jpg" alt="pic contemplation" class="circle">
-          <span class="title">Title</span>
-          <p>First Line <br>
-              Second Line
-          </p>
-          <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
-        </li>
-        <li class="collection-item avatar">
-          <i class="material-icons circle">folder</i>
-          <span class="title">Title</span>
-          <p>First Line <br>
-              Second Line
-          </p>
-          <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
-        </li>
-        <li class="collection-item avatar">
-          <i class="material-icons circle green">insert_chart</i>
-          <span class="title">Title</span>
-          <p>First Line <br>
-              Second Line
-          </p>
-          <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
-        </li>
-        <li class="collection-item avatar">
-          <i class="material-icons circle red">play_arrow</i>
-          <span class="title">Title</span>
-          <p>First Line <br>
-              Second Line
-          </p>
-          <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
-        </li>
+  <!-- NAVIGATION -->
+  <!-- LEFT LOGO -->
+  <nav>
+    <div class="nav-wrapper blue">
+      <a href="#" class="brand-logo">Logo</a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
       </ul>
     </div>
-    
+  </nav>
+  <br>
+  <!-- RIGHT LOGO -->
+  <nav>
+    <div class="nav-wrapper red">
+      <a href="#" class="brand-logo right">Logo</a>
+      <ul id="nav-mobile" class="left hide-on-med-and-down">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <br>
+  <!-- CENTER LOGO -->
+  <nav>
+    <div class="nav-wrapper green">
+      <a href="#" class="brand-logo center">Logo</a>
+      <ul id="nav-mobile" class="left hide-on-med-and-down">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <br>
+  <!-- DROPDOWN -->
+  <ul id="dropdown1" class="dropdown-content">
+    <li><a href="#!">one</a></li>
+    <li><a href="#!">two</a></li>
+    <li class="divider"></li>
+    <li><a href="#!">three</a></li>
+  </ul>
+  <nav>
+    <div class="nav-wrapper brown">
+      <a href="#" class="brand-logo center">Logo</a>
+      <ul id="nav-mobile" class="left hide-on-med-and-down">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Dropdown<i class="material-icons right">arrow_drop_down</i></a></li>
+      </ul>
+    </div>
+  </nav>
+  <br>
+  <!-- ICONS & BUTTONS IN NAVBAR -->
+  <nav>
+    <div class="nav-wrapper black">
+      <a href="#!" class="brand-logo"><i class="material-icons">cloud</i>Logo</a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#!"><i class="material-icons">search</i></a></li>
+        <li><a href="#!"><i class="material-icons">refresh</i></a></li>
+        <li><a href="#!"><i class="material-icons">more_vert</i></a></li>
+        <li><a href="#!" class="btn waves-effect waves-light">Button</a></li>
+      </ul>
+    </div>
+  </nav>
+  <br>
+  <!-- SEARCHBAR -->
+  <nav>
+    <div class="nav-wrapper yellow">
+      <form>
+        <div class="input-field">
+          <input id="search" type="search" required>
+          <label class="label-icon" for="search"><i class="material-icons">search</i></label>
+          <i class="material-icons">close</i>
+        </div>
+      </form>
+    </div>
+  </nav>
+  <br>
+  <!-- MOBILE COLLAPSE -->
+  <nav>
+    <div class="nav-wrapper">
+      <a href="#!" class="brand-logo">Logo</a>
+      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+      </ul>
+      <ul class="side-nav" id="mobile-demo">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
 
-  </div> <!-- ./container -->
+  <!-- COLLECTIONS -->
+  <div class="container">
+    <h1>COLLECTION/LIST</h1>
+    <!-- COLLECTION/LIST -->
+    <ul class="collection">
+      <li class="collection-item">Item 1</li>
+      <li class="collection-item">Item 2</li>
+      <li class="collection-item">Item 3</li>
+      <li class="collection-item">Item 4</li> 
+    </ul>
+    <!-- LINKS COLLECTION -->
+    <div class="collection">
+      <a href="#!" class="collection-item">Link 1</a>
+      <a href="#!" class="collection-item">Link 2</a>
+      <a href="#!" class="collection-item">Link 3</a>
+      <a href="#!" class="collection-item">Link 4</a>
+    </div>
+    <!-- WITH HEADER -->
+    <ul class="collection">
+      <li class="collection-item"><h4>Header</h4></li>
+      <li class="collection-item">Item 1</li>
+      <li class="collection-item">Item 2</li>
+      <li class="collection-item">Item 3</li> 
+    </ul>
+    <!-- ICON/AVATAR COLLECTION -->
+    <ul class="collection">
+      <li class="collection-item avatar">
+        <img src="http://www.freeimageslive.com/galleries/sports/relaxation/pics/contemplation.jpg" alt="pic contemplation" class="circle">
+        <span class="title">Title</span>
+        <p>First Line <br>
+            Second Line
+        </p>
+        <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+      </li>
+      <li class="collection-item avatar">
+        <i class="material-icons circle">folder</i>
+        <span class="title">Title</span>
+        <p>First Line <br>
+            Second Line
+        </p>
+        <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+      </li>
+      <li class="collection-item avatar">
+        <i class="material-icons circle green">insert_chart</i>
+        <span class="title">Title</span>
+        <p>First Line <br>
+            Second Line
+        </p>
+        <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+      </li>
+      <li class="collection-item avatar">
+        <i class="material-icons circle red">play_arrow</i>
+        <span class="title">Title</span>
+        <p>First Line <br>
+            Second Line
+        </p>
+        <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+      </li>
+    </ul>
+
+    <!-- PAGINATION -->
+    <h1>PAGINATION</h1>
+    <ul class="pagination">
+      <li class="disabled"><a href="#!"><i class="material-icons">chevron_left</i></a></li>
+      <li class="active"><a href="#!">1</a></li>
+      <li class="waves-effect"><a href="#!">2</a></li>
+      <li class="waves-effect"><a href="#!">3</a></li>
+      <li class="waves-effect"><a href="#!">4</a></li>
+      <li class="waves-effect"><a href="#!">5</a></li>
+      <li class="waves-effect"><a href="#!"><i class="material-icons">chevron_right</i></a></li>
+    </ul>
+
+    <!-- BREADCRUMBS -->
+    <h1>BREADCRUMBS</h1>
+    <nav>
+    <div class="nav-wrapper">
+      <div class="col s12">
+        <a href="#!" class="breadcrumb">First</a>
+        <a href="#!" class="breadcrumb">Second</a>
+        <a href="#!" class="breadcrumb">Third</a>
+      </div>
+    </div>
+  </nav>
+
+  </div><!-- ./container -->
+
 
   <div style="height: 500px"></div>
 
