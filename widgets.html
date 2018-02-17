@@ -195,7 +195,23 @@
     <!-- The actual icon (=) -->
     <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
     
-    
+    <!-- TABS -->
+    <h1>TABS</h1>
+    <div class="row">
+      <div class="col s12">
+        <ul class="tabs">
+          <li class="tab col s3"><a href="#test1">Test 1</a></li>
+          <!-- remove swipeable from JQuery or set to false -->
+          <li class="tab col s3"><a class="active" href="#test2">Test 2</a></li>
+          <li class="tab col s3"><a href="#test3">Test3</a></li>
+          <li class="tab col s3  disabled"><a href="#test4">Disabled Tab</a></li>
+        </ul>
+      </div>
+      <div id="test1" class="col s12 red">Test 1</div>
+      <div id="test2" class="col s12 green">Test 2</div>
+      <div id="test3" class="col s12 blue">Test 3</div>
+      <div id="test4" class="col s12 yellow">Test 4</div>
+    </div>
 
   </div> <!-- ./container -->
  
@@ -218,6 +234,8 @@
       $('.modal').modal();
       // Init SideNav
       $(".button-collapse").sideNav();
+      // (Opt) Set to true to enable swipeable tabs
+      $('ul.tabs').tabs({swipeable:true});
     });
   </script>
 </body>
